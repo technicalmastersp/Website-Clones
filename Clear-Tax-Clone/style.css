@@ -299,3 +299,19 @@ footer {
   text-align: center;
 }
 
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Start Responsive Styling   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1250px) {
+  .mainBox1, .footerBox1 {
+    width: 41.666667%;
+  }
+  .mainBox2, .footerBox2 {
+    width: 58.333333%;
+  }
+  .mainBox2Open {
+    width: 57%;
+  }
+}
+
