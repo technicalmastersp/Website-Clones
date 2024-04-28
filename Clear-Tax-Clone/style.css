@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Start Unique Styling   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Start Main Styling   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+main {
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.mainOpen {
+  box-sizing: border-box;
+  padding-bottom: 116px;
+  /* min-height: 100vh; */
+  height: 100vh;
+}
+
+.mainBox0 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 14px;
+  margin: 32px 40px 0 0;
+  font-weight: 600;
+  color: #4b5159;
+}
+.mainBox0 span {
+  color: #1572ed;
+}
+
+.mainBox1 {
+  background: #eef5ff;
+  width: 33.333333%;
+  padding-bottom: 16px;
+  /* max-height: 100%; */
+  height: 100%;
+}
+.openbox1 {
+  box-sizing: border-box;
+  padding: 48px;
+}
+.container {
+  flex-direction: column;
+  /* height: 100%; */
+}
+.gstContant {
+  flex-direction: column;
+  padding-top: 20px;
+}
+.points {
+  width: 398.97px;
+  display: flex;
+}
+.heading p {
+  font-size: 20px;
+  color: #2c323c;
+  font-weight: 500;
+}
+.gstWebPoint {
+  padding: 8px 0 0;
+}
+.gstWebPoint:first-child {
+  padding: 24px 0 0;
+}
+.gstWebPoint img {
+  height: 16px;
+  width: 16px;
+}
+.gstWebPoint p {
+  height: 21px;
+  color: #70757b;
+  font-size: 14px;
+  padding: 0 8px;
+}
+.gstImage {
+  box-sizing: border-box;
+}
+.gstImage img {
+  /* height: 631.1px; */
+  /* padding: 0 30px; */
+
+  padding: 0 30px;
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+.mainBox2 {
+  width: 66.6667%;
+}
+.width {
+  min-width: 83.3333%;
+}
+.mainBox2Open {
+  flex-direction: column;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.welcome {
+  text-align: start;
+  width: 100%;
+  color: #70757b;
+  padding: 48px 8px 0;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.createAccount {
+  width: 100%;
+  font-size: 28px;
+  text-align: start;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 5px 8px 0 8px;
+}
+
+.part2 {
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.signUp {
+  width: 100%;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+.signUp a {
+  margin: 24px 0 0;
+  padding: 12px;
+  border: 1px solid rgb(22, 120, 251);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.signUp a img {
+  max-height: 16px;
+  padding-top: 2px;
+}
+.signUp p {
+  color: #1572ed;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 0 0 12px;
+}
+.or {
+  padding: 16px 4px 4px;
+}
+.or img {
+  max-width: 100%;
+}
+#loginProcess {
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8px;
+}
+#enterEmail {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0 0;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 4px;
+  outline: none;
+  font-size: 100%;
+}
+.password {
+  width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0 0;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 4px;
+}
+#enterPassword {
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 100%;
+}
+.showAndHide {
+  margin-bottom: -10px;
+}
+.showAndHide button svg {
+  max-height: 24px;
+}
+.showAndHide button {
+  border: none;
+  background-color: transparent;
+}
+input::placeholder {
+  color: #a0aec0;
+  font-size: 16px;
+}
+.terms {
+  margin-top: 12px;
+  width: 100%;
+  justify-content: flex-start;
+}
+.terms p {
+  font-size: 12px;
+  margin: -4px 0 0 8px;
+  color: rgba(49, 66, 89, 1);
+  line-height: 1.5;
+}
+.terms p a {
+  text-decoration: underline;
+  font-weight: 600;
+  color: inherit;
+}
+.agreeButton {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 12px 24px;
+  background-color: rgb(22, 120, 251);
+  margin: 16px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+  color: #ffffff;
+}
+.decline {
+  text-align: center;
+  color: #1572ed;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 12px 24px 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Start Footer Styling   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+footer {
+  width: 100vw;
+  min-height: 116px;
+  position: absolute;
+  align-self: flex-end;
+  /* bottom: 0px; */
+}
+.footerOpen {
+  box-sizing: border-box;
+  width: 100%;
+  /* margin: 0 5px; */
+}
+.footerBox1 {
+  width: 33.3333%;
+  background-color: #eef5ff;
+}
+.footerBox1Item {
+  flex-direction: column;
+  padding: 8px 16px;
+}
+.footerBox1Item img {
+  margin-right: 24px;
+}
+.footerBox1Item p {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #4b5159;
+}
+.footerBox1ItemA a {
+  padding: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #1572ed;
+}
+.footerBox2 {
+  width: 66.6667%;
+}
+.footerBox2 img {
+  height: 64px;
+  margin: 0 auto;
+  text-align: center;
+}
+
