@@ -322,6 +322,12 @@ footer {
   body {
     display: block;
   }
+  .mainRW{
+    display: block !important;
+    position: absolute;
+    left: 35px;
+    top: 38px;
+  }
   .mainBox0 {
     margin: 100px 40px 0 0;
     letter-spacing: 0.3px;
@@ -343,6 +349,7 @@ footer {
     padding-bottom: 0px;
     height: unset;
     min-height: 73vh !important;
+    flex-direction: column;
   }
   footer {
     width: 100vw;
@@ -368,6 +375,7 @@ footer {
   }
   .footerOpen {
     flex-direction: column;
+    gap: 45px;
   }
   .footerBox1 {
     order: 2;
